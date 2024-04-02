@@ -1,0 +1,26 @@
+{
+    "name": "blocksframework/time",
+    "description": "A set of classes used for operations with time",
+    "license": "MIT",
+    "keywords": [
+        "blocks",
+        "PHP framework",
+        "time"
+    ],
+    "require": {
+        "php": ">=8.2",
+        "beberlei/assert": "^3.3",
+        "phpunit/phpunit": "^9.6"
+    },
+    "autoload": {
+        "psr-4": {
+            "Blocks\\Time\\": "src/class"
+        }
+    },
+    "authors": [
+        {
+            "name": "Stephen Stephenson",
+            "email": "stephenson.inbox@gmail.com"
+        }
+    ]
+}
